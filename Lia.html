@@ -9,7 +9,36 @@
 
     <p style="color: red; font-size: 30px;">15 years old</p>
 
-    <img src="picc.PNG"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rotating Image</title>
+  <style>
+    .rotating-picture {
+      width: 200px;
+      animation: rotateImage 4s linear infinite;
+    }
+
+    @keyframes rotateImage {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="picc.pNG" class="rotating-picture" alt="Rotating Image">
+
+</body>
+</html>
+
+
+    
 
 
   </body>
